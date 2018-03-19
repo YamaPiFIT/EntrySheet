@@ -14,6 +14,7 @@
 		C2915ED3205FAE0500B19365 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2915ED1205FAE0500B19365 /* LaunchScreen.storyboard */; };
 		C2915EDE205FAE0500B19365 /* EntrySheetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2915EDD205FAE0500B19365 /* EntrySheetTests.swift */; };
 		C2915EE9205FAE0500B19365 /* EntrySheetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2915EE8205FAE0500B19365 /* EntrySheetUITests.swift */; };
+		C2915EF7205FB5D800B19365 /* SceneData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2915EF6205FB5D800B19365 /* SceneData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		C2915EE4205FAE0500B19365 /* EntrySheetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EntrySheetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2915EE8205FAE0500B19365 /* EntrySheetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntrySheetUITests.swift; sourceTree = "<group>"; };
 		C2915EEA205FAE0500B19365 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2915EF6205FB5D800B19365 /* SceneData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				C2915EC8205FAE0500B19365 /* AppDelegate.swift */,
 				C2915ECA205FAE0500B19365 /* ViewController.swift */,
+				C2915EF6205FB5D800B19365 /* SceneData.swift */,
 				C2915ECC205FAE0500B19365 /* Main.storyboard */,
 				C2915ECF205FAE0500B19365 /* Assets.xcassets */,
 				C2915ED1205FAE0500B19365 /* LaunchScreen.storyboard */,
@@ -187,6 +190,9 @@
 		C2915EBD205FAE0500B19365 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					Administrator,
+				);
 				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = Tanko;
@@ -260,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2915ECB205FAE0500B19365 /* ViewController.swift in Sources */,
+				C2915EF7205FB5D800B19365 /* SceneData.swift in Sources */,
 				C2915EC9205FAE0500B19365 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
